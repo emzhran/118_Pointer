@@ -18,3 +18,13 @@ public:
 	void setId(int pID);
 	void displayAll(orang& a);
 };
+
+void siswa:: displayAll(orang& a) {
+	cout << id << endl << a.nama;
+}
+void orang::setNama(string pNama) {
+	nama = pNama;
+}
+void siswa::setId(int pId) {
+	id = pId;
+}
